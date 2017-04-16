@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheKenny" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0Tb-na-rth">
+                                <rect key="frame" x="10" y="10" width="355" height="627"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tif-qX-6vK">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="125.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWf-Kp-bwP">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="125.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ao-1I-vQX">
+                                        <rect key="frame" x="0.0" y="125.5" width="355" height="125.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdl-MO-F5o">
+                                                <rect key="frame" x="0.0" y="0.0" width="355" height="125.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hoc-9g-0w1">
+                                        <rect key="frame" x="0.0" y="251" width="355" height="125"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="URt-yH-mLr">
+                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="125"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ilK-nd-BZo">
+                                                <rect key="frame" x="118.5" y="0.0" width="118" height="125"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GX7-p0-xi1">
+                                                <rect key="frame" x="236.5" y="0.0" width="118.5" height="125"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VUY-ah-MlV">
+                                        <rect key="frame" x="0.0" y="376" width="355" height="125.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="I1G-2I-g8w">
+                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="125.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NzJ-Mg-fJT">
+                                                <rect key="frame" x="118.5" y="0.0" width="118" height="125.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NpV-EA-du3">
+                                                <rect key="frame" x="236.5" y="0.0" width="118.5" height="125.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oUZ-jz-tKu">
+                                        <rect key="frame" x="0.0" y="501.5" width="355" height="125.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uKj-GH-bkL">
+                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="125.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jZx-2r-KDZ">
+                                                <rect key="frame" x="118.5" y="0.0" width="118" height="125.5"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aLO-cU-bNS">
+                                                <rect key="frame" x="236.5" y="0.0" width="118.5" height="125.5"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Tb-na-rth" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="H1d-e8-ext"/>
+                            <constraint firstAttribute="bottom" secondItem="0Tb-na-rth" secondAttribute="bottom" constant="30" id="Xq4-m8-0VA"/>
+                            <constraint firstAttribute="trailing" secondItem="0Tb-na-rth" secondAttribute="trailing" constant="10" id="b7w-i0-Xhu"/>
+                            <constraint firstItem="0Tb-na-rth" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="u56-5m-Wee"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="URt-yH-mLr" id="P4L-IL-i4j"/>
+                        <outlet property="imageView2" destination="ilK-nd-BZo" id="GyE-OJ-Up3"/>
+                        <outlet property="imageView3" destination="GX7-p0-xi1" id="0ec-Ko-aJ6"/>
+                        <outlet property="imageView4" destination="I1G-2I-g8w" id="2Dp-9t-PIE"/>
+                        <outlet property="imageView5" destination="NzJ-Mg-fJT" id="273-fP-VaK"/>
+                        <outlet property="imageView6" destination="NpV-EA-du3" id="cgp-qq-HoN"/>
+                        <outlet property="imageView7" destination="uKj-GH-bkL" id="SPN-IQ-xJf"/>
+                        <outlet property="imageView8" destination="jZx-2r-KDZ" id="FMg-Dn-mzf"/>
+                        <outlet property="imageView9" destination="aLO-cU-bNS" id="QPh-d6-oz7"/>
+                        <outlet property="labelCount" destination="XWf-Kp-bwP" id="JBu-nr-hc6"/>
+                        <outlet property="labelScore" destination="Zdl-MO-F5o" id="bt3-fb-tgh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kenny.jpg" width="218" height="307"/>
+    </resources>
+</document>
